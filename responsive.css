@@ -1,0 +1,151 @@
+@media screen and (min-width: 760px) {
+    .container {
+        width: 768px;
+        overflow: hidden;
+    }
+
+    .header {
+        padding: 24px 40px 0 39px;
+    }
+
+    .top {
+        flex-direction: row;
+        padding: 50px 80px 30px 39px;
+        margin: 0;
+    }
+
+    .textside {
+        width: 398px;
+        margin-top: 100px;
+    }
+
+    .imageside {
+        position: relative;
+    }
+
+    .purple {
+        display: block;
+        width: 216px;
+        height: 688px;
+        border-radius: 158px;
+        background: linear-gradient(180deg, #4851FF 0%, #F02AA6 100%);
+        transform: rotate(45deg);
+        position: absolute;
+        top: -259px;
+        right: -190px;
+    }
+ 
+    .girlimage {
+        display: none;
+    }
+
+    .tablet {
+        display: block;
+        position: relative;
+        margin-left: 11px;
+    }
+
+    .member {
+        z-index: 1;
+        top: -5px;
+        left: 180px;
+    }
+
+    .hours {
+        z-index: 1;
+        top: 320px;
+        left: -50px;
+    }
+
+    .bottom {
+        display: grid;
+        grid-template-columns: auto auto;
+        padding: 24px 40px 0 39px;
+        gap: 11px;
+    }
+    
+    .footer {
+        margin-top: 86px;
+        padding: 36px 39px 36px 40px;
+    }
+}
+
+@media screen and (min-width: 1430px) {
+
+    .container {
+        width: 100%;
+    }
+
+    .header {
+        padding: 24px 165px 0 165px;
+    }
+
+    .top {
+        padding: 0;
+        justify-content: space-around;
+        margin-bottom: 110px;
+    }
+
+    .textside {
+        width: 445px;
+        margin-top: 178px;
+    }
+
+    .tablet {
+        width: 317px;
+        height: 560px;
+    }
+
+    .purple {
+        width: 317px;
+        height: 1008px;
+        top: -352px;
+        right: -250px;
+    }
+
+    .member {
+        width: 155px;
+        height: 120px;
+        z-index: 1;
+        top: 100px;
+        left: 285px;
+        align-items: flex-start;
+        padding-left: 24px;
+    }
+
+    .hours {
+        width: 199px;
+        height: 120px;
+        z-index: 1;
+        top: 350px;
+        left: -100px;
+        align-items: flex-start;
+        padding-left: 24px;
+    }
+
+    .bottom {
+        grid-template-columns: auto auto auto;
+        padding: 24px 165px 0 165px;
+        gap: 30px;
+    }
+
+    .footer {
+        margin-top: 140px;
+        padding: 32px 165px 32px 165px;
+    }
+
+    .firstbutton:hover { 
+        transition: .4s;
+        background-color: var(--button1);
+    }
+
+    .button2:hover { 
+        transition: .4s;
+        background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+   }
+
+   .lastbutton:hover {
+    transition: .4s;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
+   }
+}
